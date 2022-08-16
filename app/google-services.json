@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "55458024620",
+    "project_id": "mhorboro",
+    "storage_bucket": "mhorboro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55458024620:android:98c77f3a359055b7f9a309",
+        "android_client_info": {
+          "package_name": "com.example.mohrbolro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55458024620-sgcboptjuitmnrov5o1djqj9r5iabfob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1nH48NF_WB-1e9OxLUgLyHfP9cXyrQj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55458024620-sgcboptjuitmnrov5o1djqj9r5iabfob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
