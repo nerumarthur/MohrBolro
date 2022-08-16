@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void ClickAviso(View view){
-        Intent z = new Intent(this, TelaAviso.class);
+        Intent z = new Intent(this, TelaContador.class);
         startActivity(z);
 
 

@@ -17,8 +17,5 @@ public class TelaContador extends AppCompatActivity {
     public void Click(View view){
         MediaPlayer snd = MediaPlayer.create(this, R.raw.SOUND);
         snd.start();
-
-
-
     }
 }
