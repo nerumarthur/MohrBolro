@@ -19,15 +19,18 @@ public class TelaContador extends AppCompatActivity {
         contaPreoc = findViewById(R.id.campoPrec);
     }
     public void Click(View view){
-        if (contador < 4){
-            contador += 1;
-            contaNormal.setText(contador);
-        } else{
-          contador += 1;
-          contaPreoc.setText(contador);
-
-        }
         MediaPlayer snd = MediaPlayer.create(this, R.raw.som);
         snd.start();
+        if (contador <= 4){
+            contador += 1;
+            String st = Integer.toString(contador);
+            contaNormal.setText(st);
+        } else if (contador >= 5){
+          contador += 1;
+          String sta = Integer.toString(contador);
+          contaPreoc.setText(sta);
+
+        }
+
     }
 }
