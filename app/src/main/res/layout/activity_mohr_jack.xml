@@ -4,27 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".MohrJack">
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="427dp"
-        android:layout_height="341dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26999998"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/mohr"
+        tools:srcCompat="@drawable/mohr" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="409dp"
-        android:layout_height="382dp"
+        android:layout_width="444dp"
+        android:layout_height="460dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/javackson"
+        tools:srcCompat="@drawable/javackson" />
 </androidx.constraintlayout.widget.ConstraintLayout>
