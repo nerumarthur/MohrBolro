@@ -32,17 +32,13 @@ public class TelaContador extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
+        contaPreoc.setText(0);
+        contaNormal.setText(0);
         super.onDestroy();
     }
 
     public void retornarDateTime(){
-        /*Locale locale = new Locale("pt","BR");
-        SimpleDateFormat DiaAtual = new SimpleDateFormat("dd",locale);
-        SimpleDateFormat MesAtual = new SimpleDateFormat("mm",locale);
-        SimpleDateFormat AnoAtual = new SimpleDateFormat("yyyy",locale);
-        SimpleDateFormat Horario = new SimpleDateFormat("HH:mm:ss",locale);
-        Date data = new Date();
-        hora = Integer.parseInt(Horario.format(data));*/
+
 
     }
     public void Click(View view){

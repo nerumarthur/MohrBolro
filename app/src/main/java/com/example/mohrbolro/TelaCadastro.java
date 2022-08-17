@@ -11,6 +11,7 @@ import java.time.LocalDateTime;
 
 public class TelaCadastro extends AppCompatActivity {
     EditText lg,sn;
+    int horaAtual;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +24,7 @@ public class TelaCadastro extends AppCompatActivity {
         try {
             String em = lg.getText().toString();
             String snCad = sn.getText().toString();
-            int horaAtual = LocalDateTime.now().getHour();
+            horaAtual = LocalDateTime.now().getHour();
             Usuario u = new Usuario(em, snCad, horaAtual);
             u.salvar();
         } catch(Exception E){
