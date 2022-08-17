@@ -28,6 +28,7 @@ public class TelaCadastro extends AppCompatActivity {
             horaAtual = LocalDateTime.now().getHour();
             Usuario u = new Usuario(em, snCad, horaAtual);
             u.salvar();
+            Toast.makeText(this, "Usuário Cadastrado com Sucesso", Toast.LENGTH_LONG).show();
             Intent i = new Intent(this,MainActivity.class);
             startActivity(i);
         } catch(Exception E){
