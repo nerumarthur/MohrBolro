@@ -34,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
 
     }
+    public void clickSConta(View view){
+        Intent i = new Intent(this, TelaCadastro.class);
+        startActivity(i);
+    }
     public void clickLogin(View view){
         String em = email.getText().toString();
         String sn = senha.getText().toString();
