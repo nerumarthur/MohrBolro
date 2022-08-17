@@ -6,10 +6,15 @@ import com.google.firebase.database.FirebaseDatabase;
 public class Usuario {
     String email;
     String senha;
+    int horaAtual;
 
-    public Usuario(String email, String senha) {
+    public Usuario(String email, String senha, int horaAtual) {
         this.email = email;
         this.senha = senha;
+        this.horaAtual = horaAtual;
+    }
+
+    public Usuario() {
     }
 
     public String getEmail() {
@@ -28,12 +33,18 @@ public class Usuario {
         this.senha = senha;
     }
 
-    public Usuario() {
+    public int getHoraAtual() {
+        return horaAtual;
     }
+
+    public void setHoraAtual(int horaAtual) {
+        this.horaAtual = horaAtual;
+    }
+
     public void salvar(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference();
         reference.child("Usuario").child(email).setValue(this);
 
-
     }
+
 }
