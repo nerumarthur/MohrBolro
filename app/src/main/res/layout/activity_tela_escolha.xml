@@ -154,6 +154,30 @@
         app:layout_constraintStart_toStartOf="@+id/imgNarguile"
         app:layout_constraintTop_toTopOf="@+id/imgNarguile" />
 
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#00FFFFFF"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        app:layout_constraintBottom_toBottomOf="@+id/imgVape"
+        app:layout_constraintEnd_toEndOf="@+id/imgVape"
+        app:layout_constraintStart_toStartOf="@+id/imgVape"
+        app:layout_constraintTop_toTopOf="@+id/imgVape" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#00FFFFFF"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCigarro"
+        app:layout_constraintEnd_toEndOf="@+id/imgCigarro"
+        app:layout_constraintStart_toStartOf="@+id/imgCigarro"
+        app:layout_constraintTop_toTopOf="@+id/imgCigarro" />
+
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="wrap_content"

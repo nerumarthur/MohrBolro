@@ -20,7 +20,7 @@ public class TelaAviso extends AppCompatActivity {
     }
     public void clickRd(View view){
         if (c.isChecked()) {
-            Intent i = new Intent(this, TelaEscolha.class);
+            Intent i = new Intent(this, TelaContador.class);
             startActivity(i);
         }
 
