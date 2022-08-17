@@ -69,8 +69,8 @@ public class MainActivity extends AppCompatActivity {
     public void print(String msg){
         Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
     }
-    public void ClickAviso(View view){
-        Intent z = new Intent(this, TelaContador.class);
+    public void clickEgg(View view){
+        Intent z = new Intent(this, MohrJack.class);
         startActivity(z);
 
 

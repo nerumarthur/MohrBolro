@@ -143,7 +143,7 @@
         app:layout_constraintVertical_bias="0.747" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/rbNarga"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:buttonTint="#00FFFFFF"
@@ -155,7 +155,7 @@
         app:layout_constraintTop_toTopOf="@+id/imgNarguile" />
 
     <RadioButton
-        android:id="@+id/radioButton3"
+        android:id="@+id/rbVape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:buttonTint="#00FFFFFF"
@@ -167,7 +167,7 @@
         app:layout_constraintTop_toTopOf="@+id/imgVape" />
 
     <RadioButton
-        android:id="@+id/radioButton4"
+        android:id="@+id/rbCigarro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:buttonTint="#00FFFFFF"
