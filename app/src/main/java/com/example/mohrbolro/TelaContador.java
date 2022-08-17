@@ -20,6 +20,7 @@ import java.util.Map;
 public class TelaContador extends AppCompatActivity {
     int contador = 0;
     TextView contaNormal,contaPreoc;
+    static int narga, vape, cigarro;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +28,6 @@ public class TelaContador extends AppCompatActivity {
         getSupportActionBar().hide();
         contaNormal = findViewById(R.id.campoAdq);
         contaPreoc = findViewById(R.id.campoPrec);
-        retornarDateTime();
     }
 
     @Override
@@ -36,13 +36,7 @@ public class TelaContador extends AppCompatActivity {
         contaNormal.setText(0);
         super.onDestroy();
     }
-
-    public void retornarDateTime(){
-
-
-    }
     public void Click(View view){
-
         MediaPlayer snd = MediaPlayer.create(this, R.raw.som);
         snd.start();
         if (contador <= 4){

@@ -47,6 +47,7 @@
         android:id="@+id/imageView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="clickCont"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.9"
@@ -144,8 +145,8 @@
 
     <RadioButton
         android:id="@+id/rbNarga"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="103dp"
+        android:layout_height="106dp"
         android:buttonTint="#00FFFFFF"
         android:scaleX="2.5"
         android:scaleY="2.5"
@@ -156,8 +157,8 @@
 
     <RadioButton
         android:id="@+id/rbVape"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="103dp"
+        android:layout_height="100dp"
         android:buttonTint="#00FFFFFF"
         android:scaleX="2.5"
         android:scaleY="2.5"
@@ -168,8 +169,8 @@
 
     <RadioButton
         android:id="@+id/rbCigarro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="104dp"
         android:buttonTint="#00FFFFFF"
         android:scaleX="2.5"
         android:scaleY="2.5"
@@ -182,6 +183,7 @@
         android:id="@+id/imageView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="clickCont"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.86"
