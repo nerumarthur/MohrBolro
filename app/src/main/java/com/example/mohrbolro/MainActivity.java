@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void clickCadastrar(View view){
+    public void clickLogin(View view){
         Intent i = new Intent(this, TelaCadastro.class);
         startActivity(i);
 

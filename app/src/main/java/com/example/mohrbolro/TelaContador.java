@@ -36,10 +36,6 @@ public class TelaContador extends AppCompatActivity {
     }
 
     public void retornarDateTime(){
-        int horaAtual = LocalDateTime.now().getHour();
-
-
-
         /*Locale locale = new Locale("pt","BR");
         SimpleDateFormat DiaAtual = new SimpleDateFormat("dd",locale);
         SimpleDateFormat MesAtual = new SimpleDateFormat("mm",locale);
