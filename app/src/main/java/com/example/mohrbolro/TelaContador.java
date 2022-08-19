@@ -21,6 +21,7 @@ public class TelaContador extends AppCompatActivity {
     int contador = 0;
     TextView contaNormal,contaPreoc;
     static int narga, vape, cigarro;
+    String nargas, vapeS, cigarros;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +29,19 @@ public class TelaContador extends AppCompatActivity {
         getSupportActionBar().hide();
         contaNormal = findViewById(R.id.campoAdq);
         contaPreoc = findViewById(R.id.campoPrec);
+        if (narga == 1){
+            nargas = "Narguile";
+
+        }
+        if(vape == 1){
+            vapeS = "Vape";
+
+
+        }
+        if(cigarro == 1){
+            cigarros = "Cigarro";
+        }
+        Toast.makeText(this, "Você fuma:"+"\n"+nargas+"\n"+vapeS+"\n"+cigarros, Toast.LENGTH_LONG).show();
     }
 
     @Override
